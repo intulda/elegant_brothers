@@ -1,4 +1,4 @@
-package com.study.spring.elegantbrothers.common;
+package com.study.spring.elegantbrothers.common.config.mvc;
 
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;

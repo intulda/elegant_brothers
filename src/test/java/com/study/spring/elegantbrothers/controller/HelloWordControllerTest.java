@@ -13,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 class HelloWordControllerTest {
+    /*
     @Autowired
     private HelloWordController helloWordController;
 
@@ -35,4 +36,6 @@ class HelloWordControllerTest {
         .andExpect(MockMvcResultMatchers.status().isOk())
         .andExpect(MockMvcResultMatchers.content().string("helloWorld"));       // response 에 내용이 helloWolrd인지 확인한다.
     }
+
+     */
 }

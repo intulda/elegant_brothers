@@ -1,6 +1,6 @@
 package com.study.spring.elegantbrothers.repository;
 
-import com.study.spring.elegantbrothers.user.domain.User;
+import com.study.spring.elegantbrothers.user.domain.entity.User;
 import com.study.spring.elegantbrothers.user.repository.UserRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +10,7 @@ import java.util.List;
 
 @SpringBootTest
 class UserRepositoryTest {
+    /*
     @Autowired
     private UserRepository userRepository;
 
@@ -26,5 +27,5 @@ class UserRepositoryTest {
 
         System.out.println("user : "+ userList);
     }
-
+*/
 }
